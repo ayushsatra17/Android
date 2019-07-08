@@ -1,0 +1,1 @@
+This a typical Cardview Template with an Image and its heading.
