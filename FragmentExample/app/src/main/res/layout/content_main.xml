@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.dellayush.fragmentexample.FragmentClass"
+        android:layout_width="279dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/top_file_fragment" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.dellayush.fragmentexample.BottomFragment"
+        android:layout_width="186dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout="@layout/bottom_fragment" />
+
+</android.support.constraint.ConstraintLayout>
