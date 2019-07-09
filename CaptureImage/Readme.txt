@@ -1,0 +1,1 @@
+This is an application which allows to capture any image from the in-built camera and display the image on the screen.
