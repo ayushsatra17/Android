@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonName">Login</string>
+    <string name="welcome_to_android">Welcome To Android</string>
+    <string name="button">Button</string>
+</resources>
