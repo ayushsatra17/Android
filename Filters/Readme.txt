@@ -1,0 +1,1 @@
+This application merges two images together or in other words applies a transparent filter on an image.
