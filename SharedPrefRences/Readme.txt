@@ -1,0 +1,1 @@
+This application stores the user information using Shared Preferences and retains the data once the user is back.

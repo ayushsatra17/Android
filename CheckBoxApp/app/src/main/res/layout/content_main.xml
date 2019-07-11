@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    >
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="PEPSI"
+        android:onClick="onClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox1"
+        android:text="MIRINDA"
+        android:onClick="onClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox2"
+        android:text="SPRITE"
+        android:onClick="onClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox3"
+        android:text="COKE"
+        android:onClick="onClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="128dp"
+        android:text="LIMCA"
+        android:onClick="onClicked"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="300dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="75dp"
+        >
+
+        <RadioButton
+            android:id="@+id/pepsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pepsi"
+            android:onClick="onClick"/>
+
+        <RadioButton
+            android:id="@+id/sprite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sprite"
+            android:onClick="onClick"/>
+
+        <RadioButton
+            android:id="@+id/mirinda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mirinda"
+            android:onClick="onClick"/>
+
+        <RadioButton
+            android:id="@+id/limca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limca"
+            android:onClick="onClick"/>
+
+        <RadioButton
+            android:id="@+id/thumpsup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thumps Up"
+            android:onClick="onClick"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="321dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>
