@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MenuItems"
+    tools:showIn="@layout/activity_menu_items">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#b0bec5"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/pizza" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Add To Cart"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:background="#ccff90" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="110dp"
+                android:text="Veg. Pizza"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="130dp"
+                android:text="Contains Tomato, Olives, Onion, Capsicum and Parmesan Cheese."
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#b0bec5"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/pizza" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Add To Cart"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:background="#ccff90" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="110dp"
+                android:text="Indian Special"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="130dp"
+                android:text="Contains Tomato, Olives, Onion, Capsicum and Parmesan Cheese."
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#b0bec5"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/pizza" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Add To Cart"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:background="#ccff90" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="110dp"
+                android:text="Veg. Pizza"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="130dp"
+                android:text="Contains Tomato, Olives, Onion, Capsicum and Parmesan Cheese."
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#b0bec5"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/pizza" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Add To Cart"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:background="#ccff90" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="110dp"
+                android:text="Chinese special"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="130dp"
+                android:text="Contains Tomato, Olives, Onion, Capsicum and Parmesan Cheese."
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#b0bec5"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/pizza" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Add To Cart"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:background="#ccff90" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="110dp"
+                android:text="Cheezy Mexican"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="130dp"
+                android:text="Contains Tomato, Olives, Onion, Capsicum and Parmesan Cheese."
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#b0bec5"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/pizza" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Add To Cart"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:background="#ccff90" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="110dp"
+                android:text="Cheese Burst"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="130dp"
+                android:text="Contains Tomato, Olives, Onion, Capsicum and Parmesan Cheese."
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
