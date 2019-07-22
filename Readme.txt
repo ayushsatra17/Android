@@ -1,1 +1,1 @@
-These are a list of Android projects or individual modules developed during the course of Udemy-The Complete Android Developer Course.
+
